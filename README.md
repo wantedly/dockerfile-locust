@@ -1,4 +1,4 @@
-# Locust Docker Image
+# Locust Docker Image [![Docker Repository on Quay.io](https://quay.io/repository/wantedly/locust/status "Docker Repository on Quay.io")](https://quay.io/repository/wantedly/locust)
 Docker Image for [Locust](http://locust.io/).
 Please see [the official site](https://github.com/ryotarai/infrataster/) or [Github repository](https://github.com/locustio/locust) for more information about Locust.
 
