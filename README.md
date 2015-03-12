@@ -5,7 +5,7 @@ Please see [the official site](https://github.com/ryotarai/infrataster/) or [Git
 ## SUPPORTED TAGS
 
 * `latest`
- * Python 2.7.8
+ * Python 2.7.7
  * Locust 0.7.2
 
 ## HOW TO USE
