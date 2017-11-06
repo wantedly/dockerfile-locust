@@ -1,4 +1,4 @@
-FROM python:2.7.14-alpine
+FROM python:3.6.3-alpine3.6
 
 RUN apk add --no-cache -U \
       zeromq-dev
