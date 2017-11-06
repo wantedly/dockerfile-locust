@@ -1,7 +1,15 @@
-FROM quay.io/wantedly/python:2.7.7
-MAINTAINER Seigo Uchida <spesnova@gmail.com> (@spesnova)
+FROM python:2.7.14-alpine
 
-RUN pip install locustio pyzmq
+RUN apk add --no-cache -U \
+      zeromq-dev
+
+COPY requirements.txt /
+
+RUN apk add --no-cache -U --virtual build-deps \
+      g++ \
+    && pip install -r /requirements.txt \
+    && apk del build-deps
+
 WORKDIR /test
 
 ENTRYPOINT ["locust"]
