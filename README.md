@@ -8,6 +8,7 @@ Please see [the official site](https://github.com/ryotarai/infrataster/) or [Git
   - Alpine Linux 3.6
   - Python 3.6.3
   - Locust 0.8.1
+  - [python-dotenv](https://github.com/theskumar/python-dotenv) 0.7.1
 
 ## HOW TO USE
 
